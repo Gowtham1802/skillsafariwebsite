@@ -1,6 +1,7 @@
 import React from "react";
 import JobPopUp from "./popup1";
-import EventPopUp from "./popup2";
+import InternshipPopUp from "./popup2";
+import EventPopUp from "./popup3";
 import { FaCaretDown } from "react-icons/fa6";
 const LogoPage = () => {
   return (
@@ -42,7 +43,10 @@ const LogoPage = () => {
         <JobPopUp></JobPopUp>
       </div>
       <div>
-        <EventPopUp />
+        <InternshipPopUp></InternshipPopUp>
+      </div>
+      <div>
+        <EventPopUp></EventPopUp>
       </div>
     </div>
   );

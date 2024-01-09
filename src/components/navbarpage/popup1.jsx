@@ -7,7 +7,7 @@ const JobPopUp = () => {
   return (
     <div>
       <div
-        className={`popup w-[23rem] h-[11rem] bg-white border-2 border-black absolute top-[5rem] right-[2.8rem] rounded-md px-8 z-10"
+        className={`popup w-[23rem] h-[11rem] bg-white border-2 border-black absolute top-[6rem] right-[50rem] rounded-md px-8 z-10"
       }`}
       >
         <div className="w-full flex items-center py-4 gap-6">
