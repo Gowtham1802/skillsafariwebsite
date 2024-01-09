@@ -1,5 +1,4 @@
 import { useState } from "react";
-// import { useState } from "react";
 import JobPopUp from "./popup1";
 import InternshipPopUp from "./popup2";
 import EventPopUp from "./popup3";
