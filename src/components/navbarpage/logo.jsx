@@ -3,7 +3,7 @@ import JobPopUp from "./popup1";
 import InternshipPopUp from "./popup2";
 import EventPopUp from "./popup3";
 import { FaCaretDown } from "react-icons/fa6";
-import { img } from "../../../src/components/navbarpage/img/logo-black.png";
+import { logoImg } from "../../../src/components/navbarpage/img/logo-black.png";
 const LogoPage = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -29,7 +29,7 @@ const LogoPage = () => {
         <div className="">
           <img
             className="w-[14rem] h-[2rem] mr-40 cursor-pointer"
-            src={img}
+            src={logoImg}
             alt="logo"
           />
         </div>
