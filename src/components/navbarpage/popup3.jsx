@@ -14,8 +14,8 @@ const EventPopUp = () => {
     <div>
       {isOpen && (
         <div
-          className={`popup w-[23rem] h-[15rem] bg-white border-2 border-black absolute top-[6rem] right-[2.8rem] rounded-md px-8 z-10"
-      }`}
+          className={`popup w-[23rem] h-[15rem] bg-white border-2 border-black absolute top-[6rem] right-[2.8rem] rounded-md px-8 z-10`}
+          onClick={(toggleDropdown) => setIsOpen(true)}
         >
           <div className="w-full flex items-center py-4 gap-6">
             <div>
